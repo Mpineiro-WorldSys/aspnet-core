@@ -1,12 +1,4 @@
 # ASP.NET Core (.NET Framework)
-- task: CmdLine@2
-  inputs:
-    script: |
-      git config --global user.email "mpineiro@worldsys.com.ar"
-            git config --global user.name "Mpineiro-WorldSys"
-            git checkout master
-            git add all
-            git push https://%gp%@https://github.com/Mpineiro-WorldSys/aspnet-core.git
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
