@@ -1,0 +1,9 @@
+﻿@using Worldsys.LDI.Web.Areas.AppName.Models.Layout
+@using Worldsys.LDI.Web.Areas.AppName.Views.Shared.Components.AppNameLogo
+@model HeaderViewModel
+@{
+    Layout = null;
+}
+<a href="@Url.Action("Index", "Home", new {area = string.Empty})" target="_blank" class="mt-5 brand-logo">
+    @await Component.InvokeAsync(typeof(AppNameLogoViewComponent), new {logoSkin = "dark-2", logoClass="max-h-35px"})
+</a>

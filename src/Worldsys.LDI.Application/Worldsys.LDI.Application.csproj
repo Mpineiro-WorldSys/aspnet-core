@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props"></Import>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>Worldsys.LDI.Application</AssemblyName>
+    <PackageId>Worldsys.LDI.Application</PackageId>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>Worldsys.LDI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.EntityFrameworkCore.EFPlus" Version="6.1.1" />
+    <PackageReference Include="NPOI" Version="2.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Worldsys.LDI.Application.Shared\Worldsys.LDI.Application.Shared.csproj" />
+    <ProjectReference Include="..\Worldsys.LDI.Core\Worldsys.LDI.Core.csproj" />
+    <ProjectReference Include="..\Worldsys.LDI.EntityFrameworkCore\Worldsys.LDI.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>
