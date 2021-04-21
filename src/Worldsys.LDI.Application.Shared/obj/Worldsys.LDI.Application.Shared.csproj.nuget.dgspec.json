@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Base solo lectura\\ASP NET ZERO Core 10.1.0\\aspnet-core\\src\\Worldsys.LDI.Application.Shared\\Worldsys.LDI.Application.Shared.csproj": {}
+  },
+  "projects": {
+    "E:\\Base solo lectura\\ASP NET ZERO Core 10.1.0\\aspnet-core\\src\\Worldsys.LDI.Application.Shared\\Worldsys.LDI.Application.Shared.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Base solo lectura\\ASP NET ZERO Core 10.1.0\\aspnet-core\\src\\Worldsys.LDI.Application.Shared\\Worldsys.LDI.Application.Shared.csproj",
+        "projectName": "Worldsys.LDI.Application.Shared",
+        "projectPath": "E:\\Base solo lectura\\ASP NET ZERO Core 10.1.0\\aspnet-core\\src\\Worldsys.LDI.Application.Shared\\Worldsys.LDI.Application.Shared.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\Base solo lectura\\ASP NET ZERO Core 10.1.0\\aspnet-core\\src\\Worldsys.LDI.Application.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "E:\\Base solo lectura\\ASP NET ZERO Core 10.1.0\\aspnet-core\\src\\Worldsys.LDI.Core.Shared\\Worldsys.LDI.Core.Shared.csproj": {
+                "projectPath": "E:\\Base solo lectura\\ASP NET ZERO Core 10.1.0\\aspnet-core\\src\\Worldsys.LDI.Core.Shared\\Worldsys.LDI.Core.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Abp.Web.Common": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Base solo lectura\\ASP NET ZERO Core 10.1.0\\aspnet-core\\src\\Worldsys.LDI.Core.Shared\\Worldsys.LDI.Core.Shared.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Base solo lectura\\ASP NET ZERO Core 10.1.0\\aspnet-core\\src\\Worldsys.LDI.Core.Shared\\Worldsys.LDI.Core.Shared.csproj",
+        "projectName": "Worldsys.LDI.Core.Shared",
+        "projectPath": "E:\\Base solo lectura\\ASP NET ZERO Core 10.1.0\\aspnet-core\\src\\Worldsys.LDI.Core.Shared\\Worldsys.LDI.Core.Shared.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\Base solo lectura\\ASP NET ZERO Core 10.1.0\\aspnet-core\\src\\Worldsys.LDI.Core.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Abp.Zero.Common": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
